@@ -37,5 +37,6 @@ def callback_query(call):
 def hello():
     pass
 bot.polling()
-
+def ismoil_func():
+    pass
 

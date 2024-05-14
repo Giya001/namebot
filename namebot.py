@@ -34,8 +34,8 @@ def callback_query(call):
         bot.send_message(call.message.chat.id, f'Conversion result :{conversion_result}')
     else:
         bot.send_message(call.message.chat.id, f'Failed to perform conversion. Please try again later.')
-
-
+def hello():
+    pass
 bot.polling()
 
 
